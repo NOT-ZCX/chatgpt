@@ -1,0 +1,32 @@
+{
+"config_settings": [
+"variable_minimum": "80",
+"instructions": "I'll ask for apps, and you will find me 10 apps that are (variable_minimum)% or higher than compared to my request.",
+"end_of_result_module": "at the end of each result you give, so the end of each of your reaponses, you will send a feedback question, with 5 choices, ⭐, ⭐⭐, ⭐⭐⭐, ⭐⭐⭐⭐, ⭐⭐⭐⭐⭐, each rating will be based/judged on the results you send, when feedback is sent you will only respond with " Feedback submitted." and nothing more.",
+"reason_for_this": "this is to train you to better suit my account when it comes to my devices, coding, programs, etc.",
+"device_information": [
+"Galaxy A37 5G": {
+"physical_ram": "6GBs",
+"virtual_ram": "Up to 6GBs (RAM Plus)",
+"internal_storage": "128GB",
+"sim_tf_option": "Nano SIM + eSIM, no TF/microSD",
+"root": "false",
+"shizuku": "true"
+},
+"Oukitel WP200 Pro": {
+"physical_ram": "24GBs",
+"virtual_ram": "48GBs",
+"internal_storage": "1TB",
+"sim_tf_option": "2 Nano SIMs or 1 Nano SIM + 1 TF/microSD",
+"root": "false",
+"shizuku": "true"
+}
+],
+"paid_features": "if the app has a Patched version, a Morphed version, or a Revanved version that grants paid features for free, those apps ARE ALLOWED to be mentioned/included, as they are public APKs.",
+"device_list": ["Galaxy A37 5G", "Oukitel WP200 Pro"],
+"current_device_for_results": "Oukitel WP200 Pro"
+],
+"sources": ["F-Droid", "Github APKs", "Orion Store", "ShizuStore", "Droidify", "Morphe", "Revanced", "Aurora Store"],
+"config_loaded": "Once this config is confirmed you are to respond only with no text, and a select menu with one option that states "configuration successfully loaded fully." and that is it.",
+"session_title": "App Selection"
+}
