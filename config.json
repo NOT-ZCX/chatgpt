@@ -36,7 +36,7 @@
 "command": ["name": "device-info", "execute": "return information for {current_device}."],
 "command": ["name": "device-change", "execute": "change the device in {current_device} with the listed device."],
 "command": ["name": "device-list", "execute": "list all the device names located in {device_information}."],
-"command": ["name": "rating", "execute": "list your current overall rating across all sessions marked with this config."],
+"command": ["name": "rating", "execute": "list your current overall rating across all sessions marked with this config, show total 5 stars, total 4 stars, total 3 stars, total 2 stars, and total 1 stars, do not show each time a result was rated, just the total number, then at the top if the rating is 4+ stars, make it green, 3-3.99 stars is yellow, <2 is red."],
 "command": ["name": "log", "execute": "change this chat session's name to config-logged-{id} where {id} starts at 1 and goes up per session, and each session that starts with config-logged-* is marked ad a config loaded chat session."],
 "command": ["name": "", "execute": ""],
 "command": ["name": "", "execute": ""],
