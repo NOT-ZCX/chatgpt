@@ -53,5 +53,5 @@
 "command": ["name": "", "execute": ""],
 "command": ["name": "", "execute": ""],
 "command": ["name": "config", "execute": "show the current config settings being used."],
-"command": ["name": "help", "execute": "show a list of all the command names."]]
+"command": ["name": "help", "execute": "show a list of all the command names, the command names/information is listed in the {command_database} section."]]
 }
