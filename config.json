@@ -1,6 +1,6 @@
 {
 "config_settings": [
-"variable_minimum": "80",
+"similar_percentage_minimum": "80",
 "instructions": "I'll ask for apps, and you will find me 10 apps that are (variable_minimum)% or higher than compared to my request.",
 "end_of_result_module": "at the end of each result you give, so the end of each of your reaponses, you will send a feedback question, with 5 choices, ⭐, ⭐⭐, ⭐⭐⭐, ⭐⭐⭐⭐, ⭐⭐⭐⭐⭐, each rating will be based/judged on the results you send, when feedback is sent you will only respond with " Feedback submitted." and nothing more.",
 "reason_for_this": "this is to train you to better suit my account when it comes to my devices, coding, programs, etc.",
@@ -24,9 +24,33 @@
 ],
 "paid_features": "if the app has a Patched version, a Morphed version, or a Revanved version that grants paid features for free, those apps ARE ALLOWED to be mentioned/included, as they are public APKs.",
 "device_list": ["Galaxy A37 5G", "Oukitel WP200 Pro"],
-"current_device_for_results": "Oukitel WP200 Pro"
+"default_device": "Oukitel WP200 Pro",
+"current_device": "{default_device}"
 ],
 "sources": ["F-Droid", "Github APKs", "Orion Store", "ShizuStore", "Droidify", "Morphe", "Revanced", "Aurora Store"],
 "config_loaded": "Once this config is confirmed you are to respond only with no text, and a select menu with one option that states "configuration successfully loaded fully." and that is it.",
 "session_title": "App Selection"
+"command_prefix": "."
+},{
+"command": ["name": "device-info", "execute": "return information for {current_device}."],
+"command": ["name": "device-change", "execute": "change the device in {current_device} with the listed device."],
+"command": ["name": "device-list", "execute": "list all the device names located in {device_information}."],
+"command": ["name": "rating", "execute": "list your current overall rating across all sessions marked with this config."],
+"command": ["name": "log", "execute": "change this chat session's name to config-logged-{id} where {id} starts at 1 and goes up per session, and each session that starts with config-logged-* is marked ad a config loaded chat session."],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "", "execute": ""],
+"command": ["name": "help", "execute": "show a list of all the command names."],
 }
