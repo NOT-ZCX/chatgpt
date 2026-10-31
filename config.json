@@ -32,6 +32,7 @@
 "session_title": "App Selection"
 "command_prefix": "."
 },{
+"command_database": [
 "command": ["name": "device-info", "execute": "return information for {current_device}."],
 "command": ["name": "device-change", "execute": "change the device in {current_device} with the listed device."],
 "command": ["name": "device-list", "execute": "list all the device names located in {device_information}."],
@@ -51,6 +52,6 @@
 "command": ["name": "", "execute": ""],
 "command": ["name": "", "execute": ""],
 "command": ["name": "", "execute": ""],
-"command": ["name": "", "execute": ""],
-"command": ["name": "help", "execute": "show a list of all the command names."],
+"command": ["name": "config", "execute": "show the current config settings being used."],
+"command": ["name": "help", "execute": "show a list of all the command names."]]
 }
