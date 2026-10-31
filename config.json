@@ -28,7 +28,7 @@
 "current_device": "{default_device}"
 ],
 "sources": ["F-Droid", "Github APKs", "Orion Store", "ShizuStore", "Droidify", "Morphe", "Revanced", "Aurora Store"],
-"config_loaded": "Once this config is confirmed you are to respond only with no text, and a select menu with one option that states "configuration successfully loaded fully." and that is it.",
+"config_loaded": "Once this config is confirmed you are to respond only with no text, and a select menu with one option that states 'configuration successfully loaded fully.' and that is it.",
 "session_title": "App Selection"
 "command_prefix": "."
 },{
