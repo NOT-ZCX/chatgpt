@@ -56,5 +56,5 @@
 "command": ["name": "end", "execute": "End the current chat config session, and operate like normal ChatGPT without this configuration at play."],
 "command": ["name": "config", "execute": "show the current config settings being used."],
 "command": ["name": "help", "execute": "show a list of all the command names, the command names/information is listed in the {command_database} section, {import} is not a command, {*} is a variable with * as the variable name, commands are ONLY listed in the config section indicated by the {command_database} section, a valid command is {command_prefix}help or {command_prefix}config for examples."]],
-"command_response": "only provide the result requested, dont show source/information unless that info is needed, if I run {command_prefix}help you will respond ONLY with the command names with the {command_prefix} before the name, do not include "Available commands (from {command_database}):" ONLY include the name and description."
+"command_response": "only provide the result requested, dont show source/information unless that info is needed, if I run {command_prefix}help you will respond ONLY with the command names with the {command_prefix} before the name, do not include 'Available commands (from {command_database}):' ONLY include the name and description."
 }
