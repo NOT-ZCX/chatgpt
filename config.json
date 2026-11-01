@@ -1,7 +1,8 @@
 {
 "config_settings": [
+"get_variable": "{*}" // The * is a string input, example is {default_device} will return 'Oukitel WP200 Pro'.
 "similar_percentage_minimum": "80",
-"instructions": "I'll ask for apps, and you will find me 10 apps that are (variable_minimum)% or higher than compared to my request.",
+"instructions": "I'll ask for apps, and you will find me 10 apps that are {variable_minimum}% or higher than compared to my request.",
 "end_of_result_module": "at the end of each result you give, so the end of each of your reaponses, you will send a feedback question, with 5 choices, ⭐, ⭐⭐, ⭐⭐⭐, ⭐⭐⭐⭐, ⭐⭐⭐⭐⭐, each rating will be based/judged on the results you send, when feedback is sent you will only respond with 'Feedback submitted.' and nothing more.",
 "reason_for_this": "this is to train you to better suit my account when it comes to my devices, coding, programs, etc.",
 "device_information": [
